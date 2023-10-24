@@ -1,0 +1,23 @@
+2. Найти и описать ошибки в XML-документе, предоставить корректный XMLдокумент. (Пространство имен не нужно)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<movie id='1'>
+		<title>Игры разума</title>
+		<country>США</country>
+		<year>2001</year>
+		<genre>драма, биография, мелодрама</genre>
+		<producer>Рон Ховард</producer>
+		<actors>Рассел Кроу, Эд Харрис, Дженнифер Коннелли</actors> 
+		<comments/>
+	</movie>
+	<movie id='2'>
+		<title>Отпуск по обмену</title>
+		<country>США</country>
+		<year>2006</year>
+		<genre>мелодрама, комедия</genre>
+		<producer>Нэнси Майерс</producer>
+		<actors>Кэмерон Диас, Кейт Уинслет, Джуд Лоу, Джек Блэк</actors>
+		<comments/>
+	</movie>
+</catalog>

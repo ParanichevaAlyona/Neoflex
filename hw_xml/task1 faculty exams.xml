@@ -1,0 +1,21 @@
+<Faculty name='Biology'>
+	<Exams>
+		<Subject1>Biology</Subject1>
+		<Subject2>Mathematics</Subject2>
+		<Subject3>Russian</Subject3>
+	</Exams>
+</Faculty>
+<Faculty name='Mathematics'>
+	<Exams>
+		<Subject1>Mathematics</Subject1>
+		<Subject2>Physics</Subject2>
+		<Subject3>Russian</Subject3>
+	</Exams>
+</Faculty>
+<Faculty name='Economy'>
+	<Exams>
+		<Subject1>Mathematics</Subject1>
+		<Subject2>Social Science</Subject2>
+		<Subject3>Russian</Subject3>
+	</Exams>	
+</Faculty>

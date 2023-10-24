@@ -1,0 +1,27 @@
+<Ticket>
+	<TrainTicket>
+		<TicketNumber>8889455</TicketNumber>
+		<PassengerName>Paranicheva Alyona</PassengerName>
+		<DepartureDate>2023-09-05</DepartureDate>
+		<DepartureTime>10:30:00</DepartureTime>
+		<Train>116 IA</Train>
+		<Wagon>10</Wagon>
+		<Seat>15</Seat>
+	</TrainTicket>
+	<AirplaneTicket>
+		<TicketNumber>123456789</TicketNumber>
+		<PassengerName>Zaharov Nikita</PassengerName>
+		<DepartureDate>2023-10-06</DepartureDate>
+		<DepartureTime>07:00:00</DepartureTime>
+		<Gate>K10</Gate>
+		<Seat>15B</Seat>
+	</AirplaneTicket>
+	<BusTicket>
+		<TicketNumber>50</TicketNumber>
+		<PassengerName>Levina Valentina</PassengerName>
+		<DepartureDate>2023-09-09</DepartureDate>
+		<DepartureTime>15:00:00</DepartureTime>
+		<Bus>578</Bus>
+		<Seat>22</Seat>
+	</BusTicket>	
+</Ticket>

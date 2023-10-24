@@ -1,0 +1,17 @@
+<Grocery>
+	<Fruit>
+		<Name>Banana</Name>
+		<Quantity>30</Quantity>
+		<Price>98</Price>
+	</Fruit>
+	<Vegetables>
+		<Name>Tomato</Name>
+		<Quantity>20</Quantity>
+		<Price>150</Price>
+	</Vegetables>
+	<Bakery>
+		<Name>Bread</Name>
+		<Quantity>17</Quantity>
+		<Price>30</Price>
+	</Bakery>	
+</Grocery>
