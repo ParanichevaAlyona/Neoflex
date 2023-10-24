@@ -1,0 +1,101 @@
+-- Написать запрос по шаблону, к демонстрационной базе данных, 
+использовать любую таблицу на ваше усмотрение, 
+главный критерий код запроса должен быть рабочим и возвращать строки, 
+код запроса приложить в качестве результата выполненого ДЗ, 
+самостоятельно код запроса выполнить и проанализировать результат.
+
+Шаблоны: 
+--1
+SELECT col1, col2, ...colN
+FROM tableName;
+--2
+SELECT DISTINCT col1, col2, ...colN
+FROM tableName;
+--3
+SELECT col1, col2, ...colN
+FROM tableName
+WHERE condition;
+--4 использовать как AND так и OR в одном условии.
+SELECT col1, col2, ...colN
+FROM tableName
+WHERE condition1 AND|OR condition2;
+--5
+SELECT col2, col2, ...colN
+FROM tableName
+WHERE colName IN (val1, val2, ...valN);
+--6
+SELECT col1, col2, ...colN
+FROM tableName
+WHERE colName BETWEEN val1 AND val2;
+--7
+SELECT col1, col2, ...colN
+FROM tableName
+WHERE colName LIKE pattern;
+--8 Использовать одновременно ASC и DESC для разных столбцов
+SELECT col1, col2, ...colN
+FROM tableName
+WHERE condition
+ORDER BY colName [ASC|DESC];
+--9
+SELECT SUM(colName)
+FROM tableName
+WHERE condition
+GROUP BY colName;
+--10
+SELECT COUNT(colName)
+FROM tableName
+WHERE condition;
+--11
+SELECT SUM(colName)
+FROM tableName
+WHERE condition
+GROUP BY colName
+HAVING (function condition);
+-----
+Аналогично предыдущему заданию, по шаблонам написать рабочие запросы к демонстрационной базе данных.
+
+-- создание таблицы, не менее 4х колонок разного типа,
+ 1 колонка первичный ключ, одна необнуляймая
+CREATE TABLE tableName (
+  col1 datatype,
+  col2 datatype,
+  ...
+  colN datatype,
+  PRIMARY KEY (одна или более колонка)
+);
+
+-- удаление таблицы
+DROP TABLE tableName;
+
+-- создание индекса
+CREATE UNIQUE INDEX indexName
+ON tableName (col1, col2, ...colN);
+
+-- удаление индекса
+ALTER TABLE tableName
+DROP INDEX indexName;
+
+-- получение описания структуры таблицы
+DESC tableName;
+
+-- очистка таблицы
+TRUNCATE TABLE tableName;
+
+-- выбрать одно из вариантов: добавление/удаление/модификация колонок
+ALTER TABLE tableName ADD|DROP|MODIFY colName [datatype];
+
+-- переименование таблицы
+ALTER TABLE tableName RENAME TO newTableName;
+
+-- вставка значений
+INSERT INTO tableName (col1, col2, ...colN)
+VALUES (val1, val2, ...valN)
+
+-- обновление записей
+UPDATE tableName
+SET col1 = val1, col2 = val2, ...colN = valN
+[WHERE condition];
+
+-- удаление записей
+DELETE FROM tableName
+WHERE condition;
